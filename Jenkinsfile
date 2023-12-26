@@ -13,7 +13,7 @@ pipeline {
         stage('Run Batch Script') {
             steps {
                 script {
-                    bat 'test.bat' // Use 'bat' instead of 'sh' for Windows
+                    bat 'script.bat' 
                 }
             }
         }
